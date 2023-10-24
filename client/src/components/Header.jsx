@@ -7,7 +7,8 @@ function Header() {
   // const [username,setUsername]=useState(null)
   useEffect(()=>{
     fetch(PORT+"profile",{
-      credentials:"include"
+      credentials:"include",
+  
     })
     .then(res=>{
       res.json().then(userInfo=>{
@@ -21,7 +22,8 @@ function Header() {
   function logout(){
     fetch(PORT+"logout",{
       method:"POST",
-      credentials:"include"
+      credentials:"include",
+    
     })
     // setUsername(null)
   setUserInfo(null)
