@@ -13,7 +13,7 @@ const fs=require("fs")
 const secret = process.env.SECRET
 const URI=process.env.URI
 
-app.use(cors({credentials:true,origin:'http://localhost:3000'}))
+app.use(cors({credentials:true,origin:'https://6537c59b3233bd0756473e7a--sweet-medovik-e8b690.netlify.app/'}))
 app.use(express.json())
 const cookieParser= require("cookie-parser")
 // to read cookie wehen send from client 
