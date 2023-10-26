@@ -13,8 +13,8 @@ const fs=require("fs")
 const secret = process.env.SECRET
 const URI=process.env.URI
 
-// app.use(cors({credentials:true,origin:'https://6537c59b3233bd0756473e7a--sweet-medovik-e8b690.netlify.app'}))
-app.use(cors({credentials:true,origin:'https://653a7ba2df0ec71a01d67431--sweet-medovik-e8b690.netlify.app'}))
+app.use(cors({credentials:true,origin:'https://digitalpaper.netlify.app'}))
+// app.use(cors({credentials:true,origin:'https://653a7ba2df0ec71a01d67431--sweet-medovik-e8b690.netlify.app'}))
 
 app.use(express.json())
 const cookieParser= require("cookie-parser")
